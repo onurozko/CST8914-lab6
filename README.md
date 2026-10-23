@@ -4,7 +4,10 @@ Tahir Onur Ozkoral - 041122154
 
 ## Section C
 
-Professor, I tried to match the visual table layout from the Word document as closely as possible without changing the CSS. 
-I used `aria-hidden="true"` for empty cells and `id` and `headers` attributes to improve screen reader accessibility, eventhough it is a perfect visual match.
+Professor, I tried to match the visual table layout from the Word document as closely as possible without changing the CSS.
 
-[Original table from Word document](PictureFromDocx.png)
+I used `aria-hidden="true"` for empty cells and `id` and `headers` attributes to improve screen reader accessibility. Even though the visual layout isn't a perfect match, I tested the table using NVDA, and it correctly announced the headers and their corresponding values.
+
+### Original Table
+
+![Original table from Word document](PictureFromDocx.png)
